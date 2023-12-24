@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKSHAYAPERINGODE</title>
+    <link rel="icon" href="aks.png" type="image/gif" sizes="16x16"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <link href ="aksnew.css" type="text/css" rel="stylesheet">
+    <script src="aksnew.js"></script> 
+<div>
+    
+
+    <header class="bg-primary">
+    <div class="row text-white ">
+        <div class="col-4 p-5 ">
+           
+            
+<h1 class="text-center" style="font-size: xx-large;"> AKSHAYA PERINGODE SERVICE</h1> 
+
+
+        </div>
+        <div class="col-md-4 p-2  ">
+           
+            
+            
+            <img src="aks.png" style="height: 3cm; width: 3cm; ">
+            
+                    </div>
+        <div class="col-md-4 p-1 text-center">
+  
+                                      
+            
+            
+            <br>
+            
+            <label class="login-label pl-1 "> USER NAME</label>   
+        <input type="text" id="xx" name="xx"><br>
+        <label class="login-label pl-1">PASSWORD</label>
+        <input type="password" id="xxx" name="xxx"><br>
+
+        <input type="button" value="Login" onclick="me()">
+            
+            </tr>
+    
+            </table>
+
+
+        </div>
+
+    </div>
+</header>
+
+<footer >
+
+    <div class="container-fluid"></div>
+    <div class="row text-white ">
+        <div class="col-md-6 p-5  bg-info ">
+            <div class="leftdiv">
+      
+ 
+                <td><input class="customername" id="customername" type="text" name="customername" placeholder="Customer Name" maxlength="100" required=""></td>
+            
+                <td><input class="customermob" id="customermob" type="text" name="customermob" placeholder="Customer Mob" maxlength="100" required=""></td>
+            
+                <td><input class="customeremail"id="customeremail" type="text" name="customeremail" placeholder="Customer E-mail" maxlength="100" required=""></td>
+            
+                
+                
+              
+                <select class="opts " id="service" onchange="ser()"><br>   
+                <option >Selact Service </option>
+                <option >Aadhar Pan card Link </option>
+                <option >Aadhaar pvc online </option>
+                <option >Aadhaar Biometric Update </option><br>
+                
+            
+                <input class="opt" type="text" id="test"><br>
+                </select>
+                <input class="otherservice" type="text" name="otherservice" placeholder=" Outher service" maxlength="100" required="">
+               
+            
+                <input class="credit" type="text" name="credit" placeholder=" credit" maxlength="100" required="">
+                <input class="oldbalance" type="text" name="oldbalance" placeholder=" Old Balance" maxlength="100" required="">
+                <input class="refund" type="text" name="refund" placeholder=" Refund" maxlength="100" required="">
+                
+                <input class="advance" type="text" name="advance" placeholder=" Advance" maxlength="100" required="">
+            
+                <select class="paywith" id="pay" onchange="ser1()">
+                    
+                    <option >Pay With </option>
+                    <option >CSC </option>
+                    <option >Edistrict </option>
+                    <option >Bank </option>
+                    <option >Other </option>
+            
+                    <input class="pay" type="text" id="pay1">
+                    
+            
+                    </select>
+            
+                    
+                    <input   type="text" id="departmentpay" class="departmentpay" name="departmentpay" placeholder="Department Pay" maxlength="100" required="">
+                    <input  type="text" id="servicecharge" class="servicecharge" name="servicecharge" placeholder=" Service Charge" maxlength="100" required="">
+                    <input  type="text" id="total" class="total" name="total" placeholder="TOTAL" maxlength="100" required=""  onclick="submittext()">
+
+                    <input class="submit" type="button" value=" Submit "  onclick="submit()"><br>
+                    
+            
+                    
+                    <input class="cashinhand" type="text" name="cashinhand" placeholder=" Cash In Hand" maxlength="100" required="">
+                    <input class="todaytotalcollection" type="text" name="todaytotalcollection" placeholder="Today Total Collection" maxlength="100" required=""><br>
+                   
+                    <input class="submit1" type="button" value=" Submit "  onclick="submit1()">
+                    
+            </div>
+            
+            
+
+
+        </div>
+        <div class="col-md-6 p-5 bg-success">
+            <input class="totaldeptpay" type="text" name="totaldeptpay" placeholder="Total Dept. Pay" maxlength="100" required="">
+            <input class="todayservicecharge" type="text" name="todayservicecharge" placeholder=" Today Service Charge" maxlength="100" required="">
+            <input class="todaytotal " type="text" name="todaytotal " placeholder="Today Total " maxlength="100" required="">    
+            <input class="monthlytotal" type="text" name="monthlytotal" placeholder=" Monthly Total" maxlength="100" required="">
+            <input class="todaygpay " type="text" name="todaygpay" placeholder="Today G Pay" maxlength="100" required="">
+            <input class="xxx3" id="xxx3" type="text" name="xxx3" placeholder="all" maxlength="100" required="">
+            <input class="submit1" type="button" value=" Submit "  onclick="submitallx()">
+    
+    
+            </div>
+
+        </div>
+    </div>
+    <script>
+
+
+
+        function ser()
+        {
+var service = document.getElementById("service")
+document.getElementById("test").value=service.options[service.selectedIndex].text
+          
+        }
+        function ser1()
+        {
+var pay = document.getElementById("pay")
+document.getElementById("pay1").value=pay.options[pay.selectedIndex].text
+          
+        }
+
+    function data()
+    {
+        var c1 = document.getElementById("cn").value
+        var c2 = document.getElementById("cmn").value
+
+
+document.getElementById("test").value=c1+c2;
+
+    }
+    
+   
+
+       
+    </script>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</div>
+</body>
+
+</html>

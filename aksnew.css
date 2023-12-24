@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+}
+.customername{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.customermob{
+    font-size: small;
+    width: auto;
+    height: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.customeremail{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.opts{
+    font-size: small;
+    width: 27%;
+   
+    padding: 1%;
+    margin-top: 2%;
+}
+.opt{
+    margin-left: 1%;
+    font-size: small;
+    width: auto%;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.otherservice{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+
+}
+.credit{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.oldbalance{
+    font-size: small;   
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.refund{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.advance{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.paywith{
+    font-size: small;
+    width: 26.5%;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+
+}
+.pay{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+
+}
+.paywithgpay{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+
+}
+.cashinhand{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 20%;
+}
+.todaytotalcollection{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 20%;
+
+}
+.departmentpay{
+    font-size: large;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+
+}
+.servicecharge{
+    font-size: large;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.total{
+    font-size:x-large;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;   
+}
+.submit{
+    font-size: small;
+    width:20%;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 0%;   
+
+}
+.totaldeptpay{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.todayservicecharge{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.todaytotal{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.monthlytotal{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.todaygpay{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
+.submit1{
+    font-size: small;
+    width: auto;
+    border-radius:3%;
+    padding: 1%;
+    margin-top: 2%;
+}
